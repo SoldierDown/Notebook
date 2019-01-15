@@ -4,4 +4,6 @@
 	git init  
 	git add README.md
 	git commit -m "init"
+	git remote add origin <url>
+	git push -u origin master
 
