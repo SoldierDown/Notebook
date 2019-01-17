@@ -1,2 +1,5 @@
 # 832. Flipping an Image [E]
-## remember to use push_back() to add an element into a vector instead of vector[i][j]
+	vector<int> result;
+	int ele = 1;
+	result.push_back(ele);	// correct
+	result[0]=ele;		// wrong
