@@ -25,3 +25,27 @@
 
 ## 509.e Fibonacci Number
 	// avoid using recursive method because it is time-comsuming
+
+## 922.e Sort Array By Parity II
+	// a better solution will be as follows
+	public int[] sortArrayByParityII(int[] A) {
+		int len = A.length;        
+		int[] val = new int[A.length]; // use a new array to store data
+		int even = 0; // calculate odd elements and even elements 
+		int odd = 1;  // separately
+		for (int i = 0; i < len; i++) 
+		{
+			if((A[i] & 1) == 0)
+       			{
+                		val[even] = A[i];
+                		even += 2;
+           	 	}
+			else 
+			{
+                		val[odd] = A[i];
+                		odd += 2;
+            		}
+        	}
+
+        	return val;
+	}
