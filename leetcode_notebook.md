@@ -98,4 +98,4 @@
 	// this algorithm avoids the O(N^3) case
 
 ## 888.e Fair Candy Swap
-	// a better solution is to use a hashtable.(O(N))
+	// a better solution is to use a hashtable(O(N))
