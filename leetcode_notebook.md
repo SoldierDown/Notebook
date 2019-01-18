@@ -49,3 +49,6 @@
 
         	return val;
 	}
+
+## 867.e Transpose Matrix
+	// don't forget to clear the vector 
