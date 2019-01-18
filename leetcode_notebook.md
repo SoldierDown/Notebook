@@ -75,3 +75,24 @@
 
 ## 566.e Reshape the Matrix
 	// pay attention to = and ==
+
+## 976.e Largest Perimeter Triangle 
+	// a better solution will be as follows
+    	int largestPerimeter(vector<int>& A) 
+	{
+        	sort(A.begin(),A.end());
+        	for(int i = A.size() - 1; i >= 2; i--)
+        	{
+            		if(A[i - 2]+A[i - 1]>A[i]) return A[i - 2] + A[i - 1] + A[i];
+        	}
+        		return 0;
+    	}
+};
+
+	// Explanation for Sort:
+	// Without loss of generality, let's say the sidelengths of the triangle are a <= b <= c.
+	// To build up a valid triangle we need: a + b > c
+	// So there are two cases:
+	// Case 1: C >= A + B => cannot form a valid triangle if the largest sidelength is C.
+	// Case 2: C < A + B ==> valid triangle. Since we need the largest perimeter, and A' < A, B' < B, this is exactly what we need!
+	// this algorithm avoids the O(N^3) case
