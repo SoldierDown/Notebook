@@ -96,3 +96,6 @@
 	// Case 1: C >= A + B => cannot form a valid triangle if the largest sidelength is C.
 	// Case 2: C < A + B ==> valid triangle. Since we need the largest perimeter, and A' < A, B' < B, this is exactly what we need!
 	// this algorithm avoids the O(N^3) case
+
+## 888.e Fair Candy Swap
+	// a better solution is to use a hashtable.(O(N))
