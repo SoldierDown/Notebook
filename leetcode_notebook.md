@@ -1,11 +1,11 @@
 # Array
-## 832. Flipping an Image [E]
+## 832[E] Flipping an Image
 	vector<int> result;
 	int ele = 1;
 	result.push_back(ele);	// correct
 	result[0]=ele;		// wrong
 
-## 561. Array Partition I [E]
+## 561[E] Array Partition I
 	bool myfunction (int i, int j) { return (i<j);}
 	struct myclass{
 		bool operator() (int i, int j){ return (i<j);}
