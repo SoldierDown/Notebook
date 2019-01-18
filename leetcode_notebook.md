@@ -86,7 +86,7 @@
             		if(A[i - 2]+A[i - 1]>A[i]) return A[i - 2] + A[i - 1] + A[i];
         	}
         		return 0;
-    	}
+	}
 
 
 	// Explanation for Sort:
