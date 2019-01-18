@@ -78,7 +78,7 @@
 
 ## 976.e Largest Perimeter Triangle 
 	// a better solution will be as follows
-    	int largestPerimeter(vector<int>& A) 
+	int largestPerimeter(vector<int>& A) 
 	{
         	sort(A.begin(),A.end());
         	for(int i = A.size() - 1; i >= 2; i--)
