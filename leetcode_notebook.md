@@ -192,3 +192,6 @@
 
 ## 167.e Two Sum II - Input array is sorted
 	// use two indices and beat 100%
+
+## 697.e Degree of an Array
+	// straightforward method
