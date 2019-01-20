@@ -99,3 +99,7 @@
 
 ## 888.e Fair Candy Swap
 	// a better solution is to use a hashtable(O(N))
+
+## 485.e Max Consecutive Ones
+	// don't forget some details
+	
