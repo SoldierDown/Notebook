@@ -2,3 +2,5 @@
 # Leetcode
 # portfolio
 $\gamma$
+\alpha
+$\alpha$
