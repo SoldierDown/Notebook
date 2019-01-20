@@ -131,7 +131,21 @@
 
 	// Another algorithm is to sort the array.
 
-
+## 896.e Monotonic Array
+	// a tricky solution will be as follows
+	bool isMonotonic(vector<int>& A)
+	{
+		int increase = 0;
+		int decrease = 0;
+		for(int i = 1; i < A.size(); i++)
+		{
+			if(A[i] > A[i - 1]) increase++;
+			else if(A[i] < A[i - 1]) decrease++;
+		}
+	
+		return increase * decrease == 0;
+	
+	}
 
 
 
