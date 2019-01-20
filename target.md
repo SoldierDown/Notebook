@@ -2,4 +2,4 @@
 # Leetcode
 # portfolio
 
-/gamma
+$/gamma$
