@@ -179,3 +179,9 @@
 	}
 
 
+	// unordered_map usage
+	unordered_map<int,bool> u_map;
+	u_map[0] = true; // assign value (int,bool)
+	u_map.count(2);	 // check if 2 exits in u_map
+
+
