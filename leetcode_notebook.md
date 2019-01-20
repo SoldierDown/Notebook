@@ -171,7 +171,7 @@
 		{
 			if( h.count( nums[i]))
 				return true;
-			else	h[num[i]] = 1;
+			else	h[nums[i]] = 1;
 
 		}
 		
