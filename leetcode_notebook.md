@@ -147,5 +147,35 @@
 	
 	}
 
+## 217.e Contains Duplicate
+	// Solution 1: Sorting	
+	// Time complexity: O(nlogn), space complexity: O(1)
+	bool containsDuplicate(vector<int>& nums)
+	{
+		sort(nums.begin(), nums.end());
+		for(int i = 0; i < nums.size() - 1; i++)
+		{	
+			if( nums[i] == nums[i + 1]) return true;
+		}
+
+		return false;
+	}
+
+
+	// Solution 2: Hash Table
+	// Time complexity: O(n), space complexity: O(n)
+	bool containsDuplicate(vector<int>& nums)
+	{
+		unordered_map<int,bool> h;
+		for(int n = nums.size(), i = 0; i < n; i++)
+		{
+			if( h.count( nums[i]))
+				return true;
+			else	h[num[i]] = 1;
+
+		}
+		
+		return false;
+	}
 
 
