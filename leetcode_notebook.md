@@ -189,3 +189,6 @@
 
 ## 1.e Two Sum
 	// use unordered_map and beat 100%
+
+## 167.e Two Sum II - Input array is sorted
+	// use two indices and beat 100%
