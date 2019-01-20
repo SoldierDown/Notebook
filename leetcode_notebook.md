@@ -187,3 +187,5 @@
 ## 717.e 1-bit and 2-bit Characters
 	// no idea what this problem is for
 
+## 1.e Two Sum
+	// use unordered_map and beat 100%
