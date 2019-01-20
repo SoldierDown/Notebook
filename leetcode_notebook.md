@@ -106,3 +106,12 @@
 ## 283. Move Zeroes
 	// already one of the solutions
 
+## 448.e Find All Numbers Disappeared in an Array
+	// almost the same except that it uses positive/negetive to mark if a number has appeared.
+	for(int i = 0; i < nums.size();) i++)
+	{
+		int m = abs(nums[i]) - 1;
+		nums[m] = nums[m] > 0 ? -nums[m] : nums[m];
+	}
+
+
