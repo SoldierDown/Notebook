@@ -102,4 +102,7 @@
 
 ## 485.e Max Consecutive Ones
 	// don't forget some details
-	
+
+## 283. Move Zeroes
+	// already one of the solutions
+
