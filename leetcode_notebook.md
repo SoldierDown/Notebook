@@ -195,3 +195,4 @@
 
 ## 697.e Degree of an Array
 	// straightforward method
+	// forgot to consider the case that every element appears only once in the first submission
