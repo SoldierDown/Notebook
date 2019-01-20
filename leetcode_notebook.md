@@ -103,7 +103,7 @@
 ## 485.e Max Consecutive Ones
 	// don't forget some details
 
-## 283. Move Zeroes
+## 283.e Move Zeroes
 	// already one of the solutions
 
 ## 448.e Find All Numbers Disappeared in an Array
@@ -113,5 +113,25 @@
 		int m = abs(nums[i]) - 1;
 		nums[m] = nums[m] > 0 ? -nums[m] : nums[m];
 	}
+
+## 169.e Majority Element
+	// Boyer-Moore Majority Voting Algorithm
+	int majorityElement(vector<int>& nums)
+	{
+		int candidate = nums[0];
+		int count = 1;
+		for(int i = 1; i < nums.size(); i++)
+		{
+			if(count == 0) candidate = nums[i]; // the majority element will also be the majority element of the rest of the array
+			if(candidate == nums[i]) count++;
+			else count--;
+		}
+		return candidate;
+	}
+
+	// Another algorithm is to sort the array.
+
+
+
 
 
