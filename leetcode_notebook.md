@@ -24,7 +24,7 @@
 	std::sort (myvector.begin(), myvector.end(), myobject);     //(12 26 32 33 45 53 71 80))
 
 ## 509.e Fibonacci Number
-	// avoid using recursive method because it is time-comsuming
+	// avoid using recursive method because it is time-consuming
 
 ## 922.e Sort Array By Parity II
 	// a better solution will be as follows
