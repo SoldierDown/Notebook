@@ -196,3 +196,7 @@
 ## 697.e Degree of an Array
 	// straightforward method
 	// forgot to consider the case that every element appears only once in the first submission
+	
+## 977.e Squares of a Sorted Array
+	// My solution is to divide the problem into different cases
+	// with O(N) which beats 100%
